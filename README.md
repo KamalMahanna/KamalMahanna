@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @KamalMahanna
+- 👀 I’m interested in Data Science
+- 🌱 I’m currently learning MMachine Learning
+- 💞️ I’m looking to collaborate on data science projects
+- 📫 You can connect me on kamalkiranmahanna@gmail.com
