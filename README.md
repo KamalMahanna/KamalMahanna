@@ -19,6 +19,10 @@
 - 👯 **Let's Collaborate:** I'm actively looking to collaborate on cutting-edge **AI Engineering projects** and **building autonomous GenAI/Multi-Agent systems**.
 - 📫 **Reach Me:** [kamalkiranmahanna@gmail.com](mailto:kamalkiranmahanna@gmail.com) | [Portfolio](https://kamalmahanna.github.io/portfollio-website)
 
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/snake-output/snake.svg" alt="Snake animation" />
+
 ---
 
 ### 🛠️ Tech Stack & Arsenal
@@ -27,7 +31,7 @@
   <!-- Languages & Frameworks -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <br>
   <!-- Cloud & Tools -->
@@ -57,11 +61,16 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KamalMahanna&show_icons=true&theme=radium" alt="Kamal's GitHub stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KamalMahanna&theme=radium" alt="Kamal's Streak" width="48%" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KamalMahanna&layout=compact&theme=radium" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.shion.dev/api?username=KamalMahanna&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="Kamal's GitHub stats" width="48%" /><br>
+  <img src="https://streak-stats.demolab.com/?user=KamalMahanna&theme=dark&hide_border=false" alt="Kamal's Streak" width="48%" />
+  <br>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=KamalMahanna&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="48%" />
 </div>
+
+---
+
+### 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=KamalMahanna&theme=default&no-frame=true&no-bg=true&margin-w=4)
 
 ---
 
