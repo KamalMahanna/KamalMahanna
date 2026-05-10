@@ -1,0 +1,61 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run every 24 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Output Directory
+        run: mkdir -p dist
+
+      - name: Fetch GitHub Stats
+        run: |
+          # The public Vercel instance is highly rate limited. We will use community maintained forks/instances that are known to work.
+
+          # Fetch Stats
+          # Fallback mechanism
+          curl -s --fail "https://github-readme-stats.shion.dev/api?username=${{ github.repository_owner }}&theme=dark&hide_border=false" -o dist/github-stats.svg || \
+          curl -s --fail "https://github-readme-stats-kappa-flame.vercel.app/api?username=${{ github.repository_owner }}&theme=dark&hide_border=false" -o dist/github-stats.svg || \
+          curl -s --fail "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&theme=dark&hide_border=false" -o dist/github-stats.svg || true
+
+          if [ -f dist/github-stats.svg ]; then
+            grep -q "<svg" dist/github-stats.svg || rm -f dist/github-stats.svg
+          fi
+
+          # Fetch Top Languages
+          curl -s --fail "https://github-readme-stats.shion.dev/api/top-langs/?username=${{ github.repository_owner }}&theme=dark&hide_border=false&layout=compact" -o dist/top-langs.svg || \
+          curl -s --fail "https://github-readme-stats-kappa-flame.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&theme=dark&hide_border=false&layout=compact" -o dist/top-langs.svg || \
+          curl -s --fail "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&theme=dark&hide_border=false&layout=compact" -o dist/top-langs.svg || true
+
+          if [ -f dist/top-langs.svg ]; then
+            grep -q "<svg" dist/top-langs.svg || rm -f dist/top-langs.svg
+          fi
+
+          # Fetch GitHub Streak
+          curl -s --fail "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=false" -o dist/github-streak.svg || echo "Failed to fetch Streak"
+          if [ -f dist/github-streak.svg ]; then
+            grep -q "<svg" dist/github-streak.svg || rm -f dist/github-streak.svg
+          fi
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
