@@ -61,10 +61,22 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=KamalMahanna&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="Kamal's GitHub stats" width="48%" /><br>
-  <img src="https://streak-stats.demolab.com/?user=KamalMahanna&theme=dark&hide_border=false" alt="Kamal's Streak" width="48%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/github-stats.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/github-stats.svg">
+    <img src="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/github-stats.svg" alt="Kamal's GitHub stats" width="48%" />
+  </picture><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/github-streak.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/github-streak.svg">
+    <img src="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/github-streak.svg" alt="Kamal's Streak" width="48%" />
+  </picture>
   <br>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=KamalMahanna&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="48%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/top-langs.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/top-langs.svg">
+    <img src="https://raw.githubusercontent.com/KamalMahanna/KamalMahanna/output/top-langs.svg" alt="Top Languages" width="48%" />
+  </picture>
 </div>
 
 ---
