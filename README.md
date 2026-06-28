@@ -14,7 +14,7 @@
 
 - 🧠 **Current Focus:** Deep-diving into the world of **AWS Cloud Architecture** while relentlessly sharpening my core **Data Structures & Algorithms (DSA)** logic.
 - 🚀 **Currently Building:** As an AI/ML & GenAI Intern at Huebits, I design LLM-powered APIs, orchestrate RAG pipelines, and build custom YOLO-based edge detection models. 
-- 🌱 **Academics:** Pursuing an M.Tech in AI & Data Science at KIIT (CGPA: 8.8) with a strong foundation in Electrical Engineering (CGPA: 8.79).
+- 🌱 **Academics:** Pursuing an M.Tech in AI & Data Science at KIIT (CGPA: 9.29) with a strong foundation in Electrical Engineering (CGPA: 8.79).
 - 🏆 **Milestones:** IBM-Certified Machine Learning Expert & proud 5-Star Python Coder on HackerRank.
 - 👯 **Let's Collaborate:** I'm actively looking to collaborate on cutting-edge **AI Engineering projects** and **building autonomous GenAI/Multi-Agent systems**.
 - 📫 **Reach Me:** [kamalkiranmahanna@gmail.com](mailto:kamalkiranmahanna@gmail.com) | [Portfolio](https://kamalmahanna.github.io/portfollio-website)
