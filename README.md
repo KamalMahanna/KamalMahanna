@@ -51,10 +51,14 @@
 
 ### 🚀 Highlighted Projects
 
-*   **[Audio Chat – Local AI Text & Voice Assistant](https://github.com/KamalMahanna)** 
-    *   Designed a local-first conversational AI using LangChain and Ollama with semantic memory. Integrated OpenAI Whisper and TTS for full-duplex voice interaction—fully containerized via Docker with zero cloud dependency.
-*   **[YT-QnA – YouTube Video Question Answering App](https://github.com/KamalMahanna)**
-    *   Built a production-grade RAG pipeline using ChromaDB to extract insights and provide natural language Q&A over long-form YouTube videos, served via Streamlit.
+*   **[MedCollab – Medical Collaboration & Telehealth Platform](https://github.com/KamalMahanna/MedCollab)**
+    *   Designed to bridge the gap between healthcare providers and patients by offering seamless appointment booking, secure health record management, digital prescription tracking, and doctor-published medical articles.
+*   **[MyMusic – Android Music Streaming & Offline Downloader](https://github.com/KamalMahanna/MyMusic)**
+    *   Built to provide a high-fidelity music streaming and offline listening experience on Android, featuring background playback, lock-screen controls, smart queue management, and high-speed local downloads.
+*   **[Audio Chat – Local-First AI Voice & Text Assistant](https://github.com/KamalMahanna)** 
+    *   Created to offer a fully private, hands-free conversational companion that processes voice and text queries locally on-device, featuring semantic memory and zero cloud data reliance.
+*   **[YT-QnA – Interactive YouTube Video Insights & Q&A](https://github.com/KamalMahanna)**
+    *   Developed to help users quickly digest long-form YouTube videos by allowing them to ask questions and extract instant, targeted answers without watching the entire content.
 
 ---
 
